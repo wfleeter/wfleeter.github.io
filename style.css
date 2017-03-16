@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#sidebar {
+    width: 25%;
+    background-color: #0a0c11;
+    position: fixed;
+    float: left;
+    height: 100%;
+}
+
+.logo {
+    background-color: #374653;
+    margin: 100px 0;
+    padding: 20px 20px;
+    color: #fff;
+}
+
+.logo h1 {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.logo p {
+    font-size: 0.9em;
+    font-weight: 300;
+    text-align: left;
+}
+
+.navigation {
+    text-align: center;
+}
+
+.navigation ul {
+    list-style: none;
+    border-top: 1px solid #0A1612;
+}
+
+.navigation ul li {
+    border-bottom: 1px solid #0A1612;
+}
+
+.navigation ul li a {
+    text-transform: uppercase;
+    background-color: #374653;
+    display: block;
+    padding: 15px 30px;
+    color: #fff;
+    font-weight: 300;
+    transition: all 250ms ease-in-out;
+}
+
+.navigation ul li a:hover {
+    background-color: #132739;
+}
+
+#maincontent {
+    width: 75%;
+    float: right;
+}
+
+.header img {
+    width: 100%;
+    opacity: .5;
+}
+
+.header {
+    width: 100%;
+    height: 570px;
+    /*background-image: url(images/canyon.jpg);
+    background-size: cover;
+    display: table;*/
+    color: #fff;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+}
+
+.heading {
+    display: table-cell;
+    vertical-align: middle;
+    text-transform: uppercase;
+    padding: 0 200px;
+    position: absolute;
+    top: 35%;
+}
+
+.heading h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.heading p {
+    font-weight: 300;
+    line-height: 2em;
+}
+
+#container {
+    margin: 0 50px;
+}
+
+.intro {
+    color: #374653;
+    text-align: center;
+    margin: 50px 0;
+    padding: 10px 0 10px 0;
+}
+
+.intro h1 {
+    color: #132739;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+.sectionborder {
+    border-top: 5px solid #132739;
+}
+
+.sectionborder h1 {
+    display: inline-block;
+    background-color: #374653;
+    padding: 10px 25px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.sectioncontent {
+    margin-bottom: 50px;
+}
+
+.sectioncontent h2 {
+    color: #374653;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.sectioncontent p {
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+.portfolio {
+    margin-bottom: 200px;
+}
+
+.row {
+    text-align: center;
+}
+
+.portfolioitem {
+    width: 25%;
+    display: inline-block;
+    border: 1px solid black;
+    vertical-align: top;
+    position: relative;
+    margin: 0 10px;
+}
+
+.portfolioitem img {
+    opacity: 1;
+    width: 100%;
+    transition: all 250ms ease-in-out;
+}
+
+.caption {
+    position: absolute;
+    display: block;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    background-color: #374653;
+    opacity: 0;
+    transition: all 250ms ease-in-out;
+}
+
+.captioncontent {
+    display: block;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.caption h2 {
+    border-bottom: 1px solid #132739;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.caption p {
+    line-height: 1em;
+}
+
+.portfolioitem a {
+    color: #fff;
+}
+
+.portfolio a:hover img{
+    opacity: 0;
+}
+
+.portfolio a:hover .caption {
+    opacity: 1;
+}
+
+.footer {
+    background-color: #374653;
+    font-weight: 300;
+    color: #fff;
+    height: 70px;
+    border-bottom: 5px solid #132739;
+}
+
+.footer p {
+    line-height: 70px;
+    padding: 0 25px;
+}
+
+
+
+
+
+
